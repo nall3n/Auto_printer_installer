@@ -1,5 +1,6 @@
 
 $printer_driver = "Generic / Text Only"
+$port_number = 9100
 
 $test_array = @(
     @{
@@ -30,13 +31,13 @@ foreach ($item in $test_array){
             Write-Output $Port.PrinterHostAddress
             Set-Printer -Name $item["Name"] -PortName "COM1:" # Changes port to remove old network port
             Remove-PrinterPort -Name $p.PortName
-            Add-PrinterPort -Name $item["Port_name"] -PrinterHostAddress $item["Ip"]
+            Add-PrinterPort -Name $item["Port_name"] -PrinterHostAddress $item["Ip"] -PortNumber $port_number
             Set-Printer -Name $item["Name"] -PortName $item["Port_name"]
             Write-Output $item["Ip"]
         }
     } else {
         Write-Output "Adding Printer" 
-        Add-PrinterPort -Name $item["Port_name"] -PrinterHostAddress $item["Ip"]
+        Add-PrinterPort -Name $item["Port_name"] -PrinterHostAddress $item["Ip"] -PortNumber $port_number
         Add-Printer -DriverName $printer_driver -Name $item["Name"] -PortName $item["Port_name"]
     }
 }
