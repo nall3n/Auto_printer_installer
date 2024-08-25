@@ -1,22 +1,33 @@
 
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $printer_driver = "Generic / Text Only"
 $port_number = 9100
 
 $test_array = @(
     @{
-        "Name" = "Percy food"
-        "Port_name" = "percy_food"
+        "Name" = "Sky bar"
+        "Port_name" = "Sky_bar"
         "Ip" = "192.168.0.37"
     },
     @{
-        "Name" = "Percy bar"
-        "Port_name" = "percy_bar"
+        "Name" = "Sky kök"
+        "Port_name" = "Sky_kok"
         "Ip" = "192.168.0.38"
     },
     @{
-        "Name" = "Nilssons food"
-        "Port_name" = "nilssons_food"
+        "Name" = "Nilssons Kök"
+        "Port_name" = "nilssons_kok"
         "Ip" = "192.168.0.50"
+    },
+    @{
+        "Name" = "Percys Kök"
+        "Port_name" = "Percys_kok"
+        "Ip" = "192.168.0.123"
+    },
+    @{
+        "Name" = "Percys Bar"
+        "Port_name" = "Percys_Bar"
+        "Ip" = "192.168.0.100"
     }
 )
 
