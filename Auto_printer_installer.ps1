@@ -4,7 +4,7 @@ $printer_driver = "Generic / Text Only"
 $port_number = 9100
 
 $test_array = @(
-    @{
+    @{ö
         "Name" = "Sky bar"
         "Port_name" = "Sky_bar"
         "Ip" = "192.168.0.37"
