@@ -1,33 +1,34 @@
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
 $printer_driver = "Generic / Text Only"
 $port_number = 9100
 
 $test_array = @(
-    @{Ã¶
-        "Name" = "Sky bar"
-        "Port_name" = "Sky_bar"
-        "Ip" = "192.168.0.37"
+    @{
+        "Name" = "Skybar"
+        "Port_name" = "Skybar"
+        "Ip" = "10.2.64.102"
     },
     @{
-        "Name" = "Sky kök"
-        "Port_name" = "Sky_kok"
-        "Ip" = "192.168.0.38"
+        "Name" = "Skybar kök"
+        "Port_name" = "Skybar_kok"
+        "Ip" = "10.2.64.100"
     },
     @{
         "Name" = "Nilssons Kök"
-        "Port_name" = "nilssons_kok"
-        "Ip" = "192.168.0.50"
+        "Port_name" = "Nilssons_Kok"
+        "Ip" = "10.2.64.101"
     },
     @{
         "Name" = "Percys Kök"
         "Port_name" = "Percys_kok"
-        "Ip" = "192.168.0.123"
+        "Ip" = "10.1.64.98"
     },
     @{
         "Name" = "Percys Bar"
         "Port_name" = "Percys_Bar"
-        "Ip" = "192.168.0.100"
+        "Ip" = "10.1.64.99"
     }
 )
 
