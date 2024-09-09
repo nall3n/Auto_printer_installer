@@ -10,17 +10,17 @@ $test_array = @(
         "Ip" = "192.168.0.37"
     },
     @{
-        "Name" = "Sky kÃ¶k"
+        "Name" = "Sky kök"
         "Port_name" = "Sky_kok"
         "Ip" = "192.168.0.38"
     },
     @{
-        "Name" = "Nilssons KÃ¶k"
+        "Name" = "Nilssons Kök"
         "Port_name" = "nilssons_kok"
         "Ip" = "192.168.0.50"
     },
     @{
-        "Name" = "Percys KÃ¶k"
+        "Name" = "Percys Kök"
         "Port_name" = "Percys_kok"
         "Ip" = "192.168.0.123"
     },
