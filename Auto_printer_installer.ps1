@@ -4,6 +4,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 $printer_driver = "Generic / Text Only"
 $port_number = 9100
 
+
 $test_array = @(
     @{
         "Name" = "Skybar"
@@ -29,8 +30,35 @@ $test_array = @(
         "Name" = "Percys Bar"
         "Port_name" = "Percys_Bar"
         "Ip" = "10.1.64.99"
+    },
+    # ------------------
+    @{
+        "Name" = "Loge Vattentornet"
+        "Port_name" = "Loge_Vattentornet"
+        "Ip" = "10.1.64.97"
+    },
+    @{
+        "Name" = "Loge Emporia"
+        "Port_name" = "Loge_Emporia"
+        "Ip" = "10.1.65.96"
+    },
+    @{
+        "Name" = "Lounge 4 S bar"
+        "Port_name" = "Lounge_4_S_bar"
+        "Ip" = "10.1.64.95"
+    },
+    @{
+        "Name" = "Lounge 4 L Bar"
+        "Port_name" = "Lounge_4_L_Bar"
+        "Ip" = "10.1.65.94"
+    },
+    @{
+        "Name" = "Lounge 4 Kök"
+        "Port_name" = "Lounge_4_Kök"
+        "Ip" = "10.1.64.93"
     }
 )
+
 
 foreach ($item in $test_array){
     
