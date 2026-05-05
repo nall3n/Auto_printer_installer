@@ -1,0 +1,11 @@
+[
+  { "name": "Bowlingbar",  "port_name": "Bowlingbar",  "ip": "10.246.0.70" },
+  { "name": "Arkadbaren",  "port_name": "Arkadbaren",  "ip": "10.246.0.71" },
+  { "name": "Runda Baren", "port_name": "Runda_Baren", "ip": "10.246.0.72" },
+  { "name": "Loungebar",   "port_name": "Loungebar",   "ip": "10.246.0.73" },
+  { "name": "Olearys kök", "port_name": "Olearys_kok", "ip": "10.246.0.74" },
+  { "name": "Boston Kök",  "port_name": "Boston_Kok",  "ip": "10.246.0.75" },
+  { "name": "Balkongbar",  "port_name": "Balkongbar",  "ip": "10.246.0.76" },
+  { "name": "Förbeställt", "port_name": "Forbestallt", "ip": "10.246.0.77" },
+  { "name": "Boston bar",  "port_name": "Boston_bar",  "ip": "10.246.0.78" }
+]
